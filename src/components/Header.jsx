@@ -1,8 +1,9 @@
-Header=()=>{
+const Header=()=>{
  return (
-    <header>
-
-    </header>
+    <>
+      <div>Главная</div>
+      <div>Категории</div>
+    </>
  )
 }
 export default Header

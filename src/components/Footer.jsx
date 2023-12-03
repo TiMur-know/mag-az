@@ -1,7 +1,10 @@
-Footer=()=>{
+const Footer=()=>{
+    let company_info={name:"Center Pean",year:2003}
     return(
-        <footer>
-        </footer>
+        <>
+            <div>{company_info.name}</div>
+            <div>{company_info.year}</div>
+        </>
     )
 }
 export default Footer
