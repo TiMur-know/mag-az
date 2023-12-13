@@ -1,14 +1,15 @@
 import { useState } from "react"
-import ProductCartItem from "../components/ProductCart/ProductCart"
+import styles from './CartContainer.module.css'
+import ProductCartItem from "../../components/ProductCart/ProductCart"
 
 const CartContainer=()=>{
    
     const [ProductCartItems, setProducts]=useState([])
     
 return(
-    <div className={"cars"}>
-        
-        <div className={"products-list"}>
+    <div className={styles.container}>
+        <div className={styles.title}>Shopping Cart</div>
+        <div className={styles.list}>
             {ProductCartItems.map(product=>{
                 <ProductCartItem key={product.id} product={product}/>
             })}
