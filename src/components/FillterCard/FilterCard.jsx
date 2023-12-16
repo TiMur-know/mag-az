@@ -1,3 +1,4 @@
+import styles from './FilterCard.module.css'
 const FilterCard=()=>{
     return(
         <div>
