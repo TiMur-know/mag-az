@@ -1,0 +1,35 @@
+.cardImage {
+    position: relative;
+  }
+  
+  .imageContainer {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .navigationButtons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navigationButtons button {
+    padding: 10px;
+    background-color: #4d94ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navigationButtons button:hover {
+    background-color: #3572b0;
+  }

@@ -1,0 +1,88 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  flex-grow: 1;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  border:2px solid #0011ff;
+  border-radius: 5px;
+}
+.counter {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.count button {
+  cursor: pointer;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  margin: 0px;
+  padding: 0px 8px;
+  align-items: center;
+  font-weight: 700;
+  opacity: 0.6
+}
+.count button:hover{
+  opacity: 1
+}
+.prices{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: auto;
+}
+.full_price,
+.price {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.price_sale {
+  color: rgb(255, 0, 0);
+}
+.full_price{
+  text-decoration: line-through;
+  color: rgba(112, 112, 112, 0.719);
+}
+.deleteButton {
+  margin-right: 10px;
+}
+.deleteButton button {
+  cursor: pointer;
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  opacity: 0.6
+}
+.deleteButton button:hover{
+  opacity: 1
+}
