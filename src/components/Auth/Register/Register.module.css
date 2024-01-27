@@ -1,0 +1,30 @@
+.registerForm {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #87ceeb; /* Sky Blue */
+  border-radius: 8px;
+  background-color: #f0f8ff; /* Alice Blue */
+}
+
+.inputField {
+  margin-bottom: 15px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #87cefa;
+  border-radius: 4px;
+}
+.submitButton {
+  padding: 10px;
+  font-size: 18px;
+  background-color: #1e90ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #4169e1;
+}

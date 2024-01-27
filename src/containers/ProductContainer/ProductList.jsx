@@ -8,7 +8,7 @@ const ProductList=()=>{
     const [products,setProducts]=useState(data_product)
 
     return(<div className={styles.list}>
-    {products.map(item=>(<ProductCard key={item.id} product={item}/>))}
+    {products.map(product=>(<ProductCard key={product.id} product={product}/>))}
     </div>)
 }
 export default ProductList

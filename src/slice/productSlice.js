@@ -8,5 +8,9 @@ const productSlice=createSlice({
         error:null
     },
     reducers:{
+        addProducts:(state,{payload:{products}})=>{
+            state.products=products
+        },
     }
 })
+export const {actions,reducer}= productSlice

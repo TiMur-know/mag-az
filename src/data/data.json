@@ -7,159 +7,128 @@
     ],
     "products":[
         {
-            "id": 1,
-            "title": "Product 1",
-            "image": "product1.jfif",
-            "description": "Description for Product 1",
-            "categoryId": 1,
-            "price": 19.99,
-            "inStock": true
+          "id": 1,
+          "title": "Product 1",
+          "description": "Description for Product 1",
+          "image": "http://localhost:3000/img/product1.jfif",
+          "category_id": 1,
+          "discount_price": 18.0,
+          "price": 20.0,
+          "discount": 10,
+          "around_rate": 4.5
         },
         {
-            "id": 2,
-            "title": "Product 2",
-            "image": "product2.jfif",
-            "description": "Description for Product 2",
-            "categoryId": 1,
-            "price": 29.99,
-            "inStock": true
+          "id": 2,
+          "title": "Product 2",
+          "description": "Description for Product 2",
+          "image": "http://localhost:3000/img/product2.jfif",
+          "category_id": 2,
+          "discount_price": 25.0,
+          "price": 30.0,
+          "discount": 15,
+          "around_rate": 4.0
         },
         {
-            "id": 4,
-            "title": "Product 1",
-            "image": "product1.jfif",
-            "description": "Description for Product 1",
-            "categoryId": 1,
-            "price": 19.99,
-            "inStock": true
+          "id": 3,
+          "title": "Product 3",
+          "description": "Description for Product 3",
+          "image": "http://localhost:3000/img/product3.jfif",
+          "category_id": 1,
+          "discount_price": 0,
+          "price": 22.0,
+          "discount": 0,
+          "around_rate": 4.2
         },
         {
-            "id": 5,
-            "title": "Product 1",
-            "image": "product1.jfif",
-            "description": "Description for Product 1",
-            "categoryId": 1,
-            "price": 19.99,
-            "inStock": true
+          "id": 4,
+          "title": "Product 4",
+          "description": "Description for Product 4",
+          "image": "http://localhost:3000/img/product2.jfif",
+          "category_id": 2,
+          "discount_price": 0,
+          "price": 35.0,
+          "discount": 0,
+          "around_rate": 4.8
+          
         },
         {
-            "id": 6,
-            "title": "Product 1",
-            "image": "product1.jfif",
-            "description": "Description for Product 1",
-            "categoryId": 1,
-            "price": 19.99,
-            "inStock": true
+          "id": 5,
+          "title": "Product 5",
+          "description": "Description for Product 5",
+          "image": "http://localhost:3000/img/product3.jfif",
+          "category_id": 1,
+          "discount_price": 22.0,
+          "price": 28.0,
+          "discount": 10,
+          "around_rate": 4.6
         },
         {
-            "id": 7,
-            "title": "Product 1",
-            "image": "product1.jfif",
-            "description": "Description for Product 1",
-            "categoryId": 1,
-            "price": 19.99,
-            "inStock": true
+          "id": 6,
+          "title": "Product 6",
+          "description": "Description for Product 6",
+          "image": "http://localhost:3000/img/product2.jfif",
+          "category_id": 2,
+          "discount_price": 0,
+          "price": 32.0,
+          "discount": 0,
+          "around_rate": 4.3
         },
         {
-            "id": 8,
-            "title": "Product 1",
-            "image": "product1.jfif",
-            "description": "Description for Product 1",
-            "categoryId": 1,
-            "price": 19.99,
-            "inStock": true
+          "id": 7,
+          "title": "Product 7",
+          "description": "Description for Product 7",
+          "image": "http://localhost:3000/img/product1.jfif",
+          "category_id": 1,
+          "discount_price": 20.0,
+          "price": 25.0,
+          "discount": 10,
+          "around_rate": 4.7
         },
         {
-            "id": 9,
-            "title": "Product 1",
-            "image": "product1.jfif",
-            "description": "Description for Product 1",
-            "categoryId": 1,
-            "price": 19.99,
-            "inStock": true
+          "id": 8,
+          "title": "Product 8",
+          "description": "Description for Product 8",
+          "image": "http://localhost:3000/img/product1.jfif",
+          "category_id": 2,
+          "discount_price": 35.0,
+          "price": 40.0,
+          "discount": 15,
+          "around_rate": 4.1
         },
         {
-            "id": 10,
-            "title": "Product 1",
-            "image": "product1.jfif",
-            "description": "Description for Product 1",
-            "categoryId": 1,
-            "price": 19.99,
-            "inStock": true
+          "id": 9,
+          "title": "Product 9",
+          "description": "Description for Product 9",
+          "image": "http://localhost:3000/img/product3.jfif",
+          "category_id": 1,
+          "discount_price": 25.0,
+          "price": 30.0,
+          "discount": 12,
+          "around_rate": 4.9
         },
         {
-            "id": 11,
-            "title": "Product 1",
-            "image": "product1.jfif",
-            "description": "Description for Product 1",
-            "categoryId": 1,
-            "price": 19.99,
-            "inStock": true
-        },
-        {
-            "id": 12,
-            "title": "Product 1",
-            "image": "product1.jfif",
-            "description": "Description for Product 1",
-            "categoryId": 1,
-            "price": 19.99,
-            "inStock": true
-        },
-        {
-            "id": 13,
-            "title": "Product 1",
-            "image": "product1.jfif",
-            "description": "Description for Product 1",
-            "categoryId": 1,
-            "price": 19.99,
-            "inStock": true
-        },
-        {
-            "id": 14,
-            "title": "Product 1",
-            "image": "product1.jfif",
-            "description": "Description for Product 1",
-            "categoryId": 1,
-            "price": 19.99,
-            "inStock": true
-        },
-        {
-            "id": 15,
-            "title": "Product 1",
-            "image": "product1.jfif",
-            "description": "Description for Product 1",
-            "categoryId": 1,
-            "price": 19.99,
-            "inStock": true
-        },
-        {
-            "id": 16,
-            "title": "Product 1",
-            "image": "product1.jfif",
-            "description": "Description for Product 1",
-            "categoryId": 1,
-            "price": 19.99,
-            "inStock": true
-        },
-        {
-            "id": 17,
-            "title": "Product 1",
-            "image": "product1.jfif",
-            "description": "Description for Product 1",
-            "categoryId": 1,
-            "price": 19.99,
-            "inStock": true
-        },
-        {
-            "id": 3,
-            "title": "Product 3",
-            "image": "product3.jfif",
-            "description": "Description for Product 3",
-            "categoryId": 2,
-            "price": 24.99,
-            "inStock": false
+          "id": 10,
+          "title": "Product 10",
+          "description": "Description for Product 10",
+          "image": "http://localhost:3000/img/product2.jfif",
+          "category_id": 2,
+          "discount_price": 0,
+          "price": 22.0,
+          "discount": 0,
+          "around_rate": 4.4
         }
-    ],
+      ],
+      "":[
+
+      ],
+      "ordersItem":[
+        {
+          "id":1,
+          "product_id":1,
+          "order_id":1,
+          "quantity":""
+        }
+      ],
     "category":[
         {
             "id": 1,

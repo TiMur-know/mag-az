@@ -59,14 +59,14 @@
   margin-left: auto;
 }
 .full_price,
-.price {
+.price, .price_full, .price_sale {
   font-size: 20px;
   margin-right: 10px;
 }
 .price_sale {
   color: rgb(255, 0, 0);
 }
-.full_price{
+.price_full{
   text-decoration: line-through;
   color: rgba(112, 112, 112, 0.719);
 }

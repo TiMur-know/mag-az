@@ -1,21 +1,24 @@
-import { createSlice } from "@reduxjs/toolkit"
+import { createSlice, current } from "@reduxjs/toolkit"
+import { ProductItemToProductCart } from "../Util/functions"
 const initialState ={
-  cartItems:[]
-}
+  cartItems:[]}
+
+
 export const cartSlice=createSlice({
     name:'cart',
     initialState,
     reducers:{
-      addProductToCart:(state,{payload:{product}})=>{
-        const cartItem={product,count:1}
-        if(state.cartItems.some(p=>p.id===product.id)) return
-        state.cartItems.push(cartItem)
+      addProductToCart:(state,{payload:product})=>{
+        const cartItem=ProductItemToProductCart(product)
+        if(!state.cartItems.some(p=>p.id===product.id)){
+          state.cartItems.push(cartItem)
+        }
     },
     deleteProductFromCart:(state, { payload: productId })=>{
-      state.cartItems = state.cartItems.filter((p) => p.product.id !== productId);
+      state.cartItems = state.cartItems.filter(p => p.id !== productId);
     },
     incrementProductInCart: (state, { payload: productId }) => {
-      const productToIncrement = state.cartItems.find((p) => p.id === productId);
+      const productToIncrement = state.cartItems.find(p => p.id === productId);
       if (productToIncrement) {
         productToIncrement.count += 1;
       }
@@ -31,6 +34,5 @@ export const cartSlice=createSlice({
     },
     }
 })
-
-
+console.log(initialState)
 export const {actions,reducer}=cartSlice

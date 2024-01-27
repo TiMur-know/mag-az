@@ -17,3 +17,13 @@ export const Get_data_products = (productsData, categoriesData) => {
 
     return transformedProducts;
 };
+export const ProductItemToProductCart=(product)=>{
+    return {
+        id:product.id,
+        title: product.title,
+        image: product.image,
+        price: product.price,
+        discount_price:product.discount_price,
+        count: 1,
+    };
+}

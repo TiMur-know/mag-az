@@ -1,17 +1,15 @@
 import React from 'react'
-
-import Layout_1 from './layers/layout_1';
-import ProductList from './containers/ProductContainer/ProductList';
+import { Route, RouterProvider, Routes } from 'react-router-dom';
+import router from './Util/router/router';
+import { Provider } from 'react-redux';
+import store from './store/store';
 
 function App() {
   return (
     <div className="App">
-      
-      <Layout_1>
-        <ProductList/>
-      </Layout_1>
-        
-
+      <Provider store={store}>
+        <RouterProvider router={router}/>
+      </Provider>
     </div>
   );
 }

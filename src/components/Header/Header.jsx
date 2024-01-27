@@ -18,6 +18,7 @@ const Header = () => {
             <li className={styles.navItem}><a href='/phones'>Телефоны</a></li>
             <li className={styles.navItem}><a href='/tablets'>Планшеты</a></li>
             <li className={styles.navItem}><a href='/accessories'>Аксессуары</a></li>
+            <li className={styles.navItem}><a href='/test'>Test</a></li>
           </ul>
           <div className={styles.icons}>
             <div className={styles.iconBlock}>
@@ -26,7 +27,7 @@ const Header = () => {
               </a>
             </div>
             <div className={styles.iconBlock}>
-              <a href='#' onClick={show_cart}>
+              <a onClick={show_cart}>
                 <FontAwesomeIcon icon={faShoppingCart} className={styles.icon} />
               </a>
             </div>
